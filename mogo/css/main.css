@@ -1,6 +1,7 @@
 /* Google fonts
 font-family: 'Kaushan Script',cursive;
 font-family: 'Montserrat', sans-serif;
+https: //www.youtube.com/watch?v=ltMSrSis9ww
  */
 
 * {
@@ -20,11 +21,45 @@ body {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+    border: 1px solid
 }
 
 /* header block */
 .header {
     width: 100%;
     height: 100vh;
-    background-image: url("../img/MoGo_FREE_Template_by_Laaqiq_01.jpg");
+    background: url("../img/MoGo_FREE_Template_by_Laaqiq_01.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.neader-nav {
+    border: 1px solid;
+    widows: 100%;
+}
+
+.logo {
+    display: inline;
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+nav {
+    width: 40%;
+    float: right;
+}
+
+nav a {
+    display: inline-block;
+    padding: 10px 15px 0px 15px;
+    color: #000;
+    text-decoration: none;
+    transition: .10s;
+
+}
+
+nav a:hover {
+    border-bottom: 3px solid #f4bd87;
+    color: #f4bd87;
+    font-weight: bold;
 }
