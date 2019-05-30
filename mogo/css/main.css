@@ -1,3 +1,30 @@
+/* Google fonts
+font-family: 'Kaushan Script',cursive;
+font-family: 'Montserrat', sans-serif;
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    background-color: red;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* header block */
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../img/MoGo_FREE_Template_by_Laaqiq_01.jpg");
 }
