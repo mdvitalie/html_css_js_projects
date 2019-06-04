@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <!-- Bootstrap CDN CSS-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <!-- external CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -15,14 +17,57 @@
     <nav class="navbar navbar-dark bg-dark">
         <a href="#" class="navbar-brand">Infosite</a>
     </nav>
+
+    <!-- Mid section -->
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-lg-12">
+                <button type="button" class="btn btn-success" data="ship">Ship</button>
+                <button type="button" class="btn btn-success" data="aircraft">Aircraft</button>
+                <button type="button" class="btn btn-success" data="tank">Tank</button>
+            </div>
+            <div class="col-lg-12">
+                <div id="regions_div" style="width: 100%; min-height: 300px;"></div>
+            </div>
+            <div class="col-lg-12">
+                <ul class="list-group">
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end of Mid section -->
+
+    <!-- Footer -->
+    <footer class="fixed-bottom row-fluid navbar navbar-dark bg-dark footer">
+        <div class="navbar-inner">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <a href="#" class="navbar-brand">Infosite</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- CDN -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+    </script>
+    <!-- Google GEO Chart -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
     <!-- External JS -->
+    <script src="js/tank.js"></script>
+    <script src="js/aircraft.js"></script>
+    <script src="js/ship.js"></script>
+    <script src="js/submarine.js"></script>
+    <script src="js/army.js"></script>
     <script src="js/main.js"></script>
 </body>
 
